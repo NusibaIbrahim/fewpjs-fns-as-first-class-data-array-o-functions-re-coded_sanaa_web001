@@ -34,18 +34,5 @@ const routine = [
 ];
 
 function exerciseDog(dogName, dogBreed) {
-  routine.forEach(function (oppressedWorker) {
-    return console.log(`${oppressedWorker(dogName, dogBreed)}`);
-  });
+  return routine.map(e => e((dogName, dogBreed));
 }
-
- const executedMessages = exerciseDog("Esther", "Dalmation");
- 
-  const successMessages = [
-        "Wake Esther the Dalmation",
-        "Leash Esther the Dalmation",
-        "Walk to the park with Esther the Dalmation",
-        "Throw the frisbee for Esther the Dalmation",
-        "Walk home with Esther the Dalmation",
-        "Unleash Esther the Dalmation",
-      ];
