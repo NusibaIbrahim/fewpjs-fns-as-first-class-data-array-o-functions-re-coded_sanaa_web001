@@ -34,5 +34,5 @@ const routine = [
 ];
 
 function exerciseDog(dogName, dogBreed) {
-  return routine.map(e => e((dogName, dogBreed));
+  return routine.map(e => e(dogName, dogBreed));
 }
